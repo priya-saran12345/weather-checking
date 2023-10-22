@@ -1,0 +1,166 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;600&family=Poppins:ital,wght@1,300&display=swap');
+
+*{
+    margin:0;
+    padding: 0p;
+    font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+box-sizing: border-box;
+}
+body{
+    background-color:rgb(62, 59, 59);
+}
+.main
+{
+    padding-bottom: 30px;
+ 
+    width:90%;
+    max-width: 360px;
+    margin: 30px; 
+    text-align: center;
+    margin: 60px auto 0;
+    background-image: linear-gradient(  to right, rgb(161, 235, 248) ,rgb(7, 45, 67));
+    padding: 40px 35px 40px;
+    border-radius: 20px;
+color: #fff;
+    
+}
+.search{
+   
+    display: flex;
+    direction: row;
+justify-content: space-between;
+text-align: center;
+}
+.input-box
+{
+    border-radius: 20px;
+    width: 80%;
+    color: black;
+    background-color: rgb(245, 240, 234);
+    padding-left:20px;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    height:40px;
+    flex: 1;
+    margin-right: 20px;
+}
+.btn{
+    background-color: rgb(245, 240, 234);
+
+    border: 0;
+    outline: 0;
+    border-radius: 30px;
+    width: 50px;
+    padding:5px;
+    cursor: pointer;
+}
+
+.search1
+{
+  
+    width :24px;
+}
+.humidity 
+{
+    height:60px;
+    width: 100px;
+    padding-top: 20px;
+}
+.wind
+{
+    height:50px;
+    width: 60px;
+
+}
+.rain{
+    width:150px;
+}
+
+.temp
+{
+    font-size: 50px;
+    font-weight: 900;
+}
+.city
+{
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    align-items: center;
+}
+.col{
+display: flex;
+align-items: center;
+}
+.col img{
+    width: 30px;
+    height: 50px;
+    margin-left: 15px;
+}
+.hum, .hum1{
+    margin-left: 12px;
+  
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.hum2{
+    margin-left: 15px;
+  
+    font-size: 15px;
+    font-weight: 500;
+}
+.error
+{
+    margin-left: 5px;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 10px;
+
+    display: none;
+}
+.cu{
+}
+.mix
+{
+    display: flex;
+    justify-content:space-evenly;
+}
+.unit ,.btn1 
+{
+    font-size: 17px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+border:none;    
+}
+.btn1{
+cursor: pointer;
+width: 100px;
+}
+
+.btn2{
+    cursor: pointer;
+    margin-left: 4px;
+    margin-top: 10px;
+    font-size: 17px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+border:none; 
+}
+.both
+{
+    margin-right: 0%;
+    margin-left: 30px;
+    align-items: right;
+    padding-top: 30px;
+}
+

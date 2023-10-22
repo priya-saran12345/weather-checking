@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="search">
+            <input type="text" placeholder="enter the location" class="input-box" spellcheck="false">
+            <button class="btn">
+                <img class="search1" src="search.png" alt="searching ">
+            </button>
+        </div>
+        <div class="error">entered wrong city</div>
+        <div class="weather">
+            <img src="rain.png" alt="finding" class="rain">
+           
+            <div class="mix">
+            <div class="cu">
+                <h1 class="temp"> 25°c</h1>
+                <h3 class="we">weather </h1>
+                <h2 class="city">Delhi</h2>
+            </div>
+           <div class="both">
+            <div class="ddl">
+                <select  class="unit">
+                <option value="choose">select unit</option>
+                <option value="celsius">celcius</option>
+                <option value="fahreneit">fahreneit</option>
+                <option value="kelvin">kelvin</option>
+              </select>
+              <button class="btn2">check</button>
+               </div>
+               
+            </div>
+</div>
+
+        </div>
+        <div class="details">
+            <div class="col">
+                <img src="humidity.png" alt="searching" class="humidity">
+                <div class="clo1">
+                    <p class="hum" style="text-align: left;">50%</p>
+                    <p class="hum2">Humidity</p>
+                </div>
+            </div>
+            <div class="col">
+                <img src="wind.png" alt="searching" class="wind">
+                <div class="clo1">
+                    <p class="hum1">18km/h</p>
+                    <p class="hum2">Wind speed </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="first.js">
+
+    </script>
+</body>
+
+</html>
